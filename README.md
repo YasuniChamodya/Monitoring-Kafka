@@ -1,6 +1,6 @@
 # Monitoring-Kafka
 
-<p>Set up Kafka monitoring on a Grafana dashboard using Prometheus. Use Prometheus to pull metrics from Kafka and then visualize the important metrics on a Grafana dashboard (You can refer this blog post or this YouTube video for complete tutorial).</p>
+Set up Kafka monitoring on a Grafana dashboard using Prometheus. Use Prometheus to pull metrics from Kafka and then visualize the important metrics on a Grafana dashboard (You can refer [this blog post](https://www.blogger.com) or [this YouTube video](https://www.youtube.com) for complete tutorial).
 <div>
 <h6 align="center">Overall Process</h6>
 <p align="center">
@@ -26,13 +26,14 @@
 <p>Now you can look into Docker desktop and you will be able to see all the images are created and running as follows.</p>
 <img src="https://user-images.githubusercontent.com/48217165/125195907-6d6f6500-e275-11eb-95d2-664343eb1ea1.png" width="800"/>
 
-
 <h4>2. Monitoring visualization on Grafana</h4>
-<p>Now we have configured Kafka JMX metrics to pipe into Prometheus, it's time to visualize it in Grafana. Open your favorite web browser and browse to http://localhost:3000. You will be able to log in using the username and password as admin (If you need you can change them after your 1st login).
+<p>Now we have configured Kafka JMX metrics to pipe into Prometheus, it's time to visualize it in Grafana. Open your favorite web browser and browse to http://localhost:3000 . You will be able to log in using the username and password as admin (If you need you can change them after your 1st login).
 Now you need to add Prometheus as a data source. 
 </p>
 
 <p>Now you can create your own dashboard on Grafana by manually configuring the panels one by one or you can download my dashboard JSON file and import it into Grafana.</p>
+<img src="https://user-images.githubusercontent.com/48217165/125198034-da86f880-e27d-11eb-8575-c8431f26caae.png" width="700" height="400"/>
+
 <p>Make sure to choose the correct data source, which is “Prometheus” in our case, and click on the Import button. You should immediately see the dashboard reporting the following metrics.</p>
 <img src="https://user-images.githubusercontent.com/48217165/125195604-feddd780-e273-11eb-988f-ba4dd32f34d4.PNG" width="800"/>
 
@@ -60,4 +61,5 @@ Now you need to add Prometheus as a data source.
 •	Bytes out per topic.<br/>
 •	Time spent in GC (Garbage Collection).<br/>
 <br/>
-<p>Refer this blog post or YouTube video for creating topics, producing and consuming messages.</P>
+
+Refer [this blog post](https://www.blogger.com) or [this YouTube video](https://www.youtube.com) for creating topics, producing and consuming messages.
