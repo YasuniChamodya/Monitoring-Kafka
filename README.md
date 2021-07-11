@@ -4,7 +4,7 @@ Set up Kafka monitoring on a Grafana dashboard using Prometheus. Use Prometheus 
 <div>
 <h6 align="center">Overall Process</h6>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/48217165/125193461-1adc7b80-e26a-11eb-8a74-c7a4f0ba2564.PNG" />
+  <img src="https://user-images.githubusercontent.com/48217165/125206288-264c9880-e2a4-11eb-87f0-406a85ad559e.PNG" />
 </p><br/>
 </div>
 
@@ -44,7 +44,7 @@ Now you need to add Prometheus as a data source.
 <h4>Counters</h4>
 •	Partition count - total number of global partitions across all topics in the Kafka cluster (excluding replicas).<br/>
 •	Offline partitions- number of partitions that are offline in the cluster. This number should always be zero. If a partition is offline / down, means that the topics are also down).<br/>
-•	Offline partitions - number of under-replicated partitions for the broker. Should always be zero. Otherwise, partitions are lagging behind the rest of the clusters.<br/>
+•	URP - number of under-replicated partitions for the broker. Should always be zero. Otherwise, partitions are lagging behind the rest of the clusters.<br/>
 •	Active controller count - one of the brokers is an active controller and all the ones are not controllers. This number should always be one. Zero means the Kafka cluster is not working/ there are no active controllers.<br/>
 •	Topic count - total number of topics across all brokers in the cluster.<br/>
 •	Total message count - Total number of producer requests to a broker.<br/>
