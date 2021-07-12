@@ -1,6 +1,6 @@
 # Monitoring-Kafka
 
-Set up Kafka monitoring on a Grafana dashboard using Prometheus. Use Prometheus to pull metrics from Kafka and then visualize the important metrics on a Grafana dashboard (You can refer [this blog post](https://www.blogger.com) or [this YouTube video](https://www.youtube.com) for complete tutorial).
+Set up Kafka monitoring on a Grafana dashboard using Prometheus. Use Prometheus to pull metrics from Kafka and then visualize the important metrics on a Grafana dashboard (You can refer [this blog post](https://techoverloadeddiar.me/blog_posts/monitoring-kafka-using-prometheus-on-a-grafana-dashboard/) or [this YouTube video](https://www.youtube.com) for complete tutorial).
 <div>
 <h6 align="center">Overall Process</h6>
 <p align="center">
@@ -62,4 +62,4 @@ Now you need to add Prometheus as a data source.
 •	Time spent in GC (Garbage Collection).<br/>
 <br/>
 
-Refer [this blog post](https://www.blogger.com) or [this YouTube video](https://www.youtube.com) for creating topics, producing and consuming messages.
+Refer [this blog post](https://techoverloadeddiar.me/blog_posts/monitoring-kafka-using-prometheus-on-a-grafana-dashboard/) or [this YouTube video](https://www.youtube.com) for creating topics, producing and consuming messages.
